@@ -1,5 +1,5 @@
 
-# Bash Replace Script
+# Replace in Files (Bash Script)
 
 This bash script allows users to perform a find-and-replace operation across multiple files within a specified directory. With an option to execute replacements recursively in all subdirectories, the script efficiently finds and replaces target text strings in bulk.
 
