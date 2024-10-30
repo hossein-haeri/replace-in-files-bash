@@ -1,7 +1,7 @@
 
-# Replace in Files (Bash Script)
+# Replace In Files (A Bash Script)
 
-This bash script allows users to perform a find-and-replace operation across multiple files within a specified directory. With an option to execute replacements recursively in all subdirectories, the script efficiently finds and replaces target text strings in bulk.
+This bash script, `replace_in_files.sh`, allows users to perform a find-and-replace operation across multiple files within a specified directory. With an option to execute replacements recursively in all subdirectories, the script efficiently finds and replaces target text strings in bulk.
 
 ## Features
 
@@ -13,7 +13,7 @@ This bash script allows users to perform a find-and-replace operation across mul
 ## Usage
 
 ```bash
-./replace.sh [-r] [directory] <something> <somethingElse>
+./replace_in_files.sh [-r] [directory] <something> <somethingElse>
 ```
 
 - `-r` (optional): If specified, the script will search in all subdirectories.
@@ -26,19 +26,19 @@ This bash script allows users to perform a find-and-replace operation across mul
 1. **Basic Find and Replace in Current Directory**  
    Replace `foo` with `bar` in all files in the current directory:
    ```bash
-   ./replace.sh foo bar
+   ./replace_in_files.sh foo bar
    ```
 
 2. **Find and Replace in a Specific Directory**  
    Replace `hello` with `world` in all files within the `docs` directory:
    ```bash
-   ./replace.sh docs hello world
+   ./replace_in_files.sh docs hello world
    ```
 
 3. **Recursive Replacement**  
    Replace `old_text` with `new_text` in all files within `src` and its subdirectories:
    ```bash
-   ./replace.sh -r src old_text new_text
+   ./replace_in_files.sh -r src old_text new_text
    ```
 
 ## Requirements
