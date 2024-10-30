@@ -57,10 +57,4 @@ This bash script, `replace_in_files.sh`, allows users to perform a find-and-repl
 - The script uses `sed` for in-place replacements, compatible with most Unix/Linux systems.
 - Ensure you have proper write permissions in the specified directory to allow in-place file edits.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Feel free to open issues or create pull requests to improve the script’s functionality or documentation.
